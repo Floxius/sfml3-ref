@@ -1,0 +1,23 @@
+{
+  "name": "sfml3-ref",
+  "version": "1.0.0",
+  "description": "SFML 3.1.0 Documentation MCP Server",
+  "main": "dist/src/index.js",
+  "type": "module",
+  "scripts": {
+    "build:index": "tsx build-index.ts",
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "cheerio": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}
