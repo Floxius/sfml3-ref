@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "SFML 3.1.0 Documentation MCP Server",
   "main": "dist/src/index.js",
+  "bin": {
+    "sfml3-ref": "dist/src/index.js"
+  },
+  "files": [
+    "dist",
+    "index.json",
+    "README.md"
+  ],
   "type": "module",
   "scripts": {
     "build:index": "tsx build-index.ts",
@@ -10,7 +18,15 @@
     "start": "node dist/src/index.js",
     "dev": "tsx src/index.ts"
   },
-  "keywords": [],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sfml",
+    "sfml3",
+    "documentation",
+    "claude"
+  ],
+  "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",
     "cheerio": "^1.2.0"
