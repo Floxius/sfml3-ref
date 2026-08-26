@@ -41,7 +41,7 @@ An official **Model Context Protocol (MCP)** server providing AI assistants (Cla
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/sfml3-ref.git
+git clone https://github.com/Floxius/sfml3-ref.git
 cd sfml3-ref
 
 # 2. Install dependencies
