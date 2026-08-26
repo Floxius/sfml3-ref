@@ -123,7 +123,7 @@ Once connected in Claude or your MCP client, you can ask prompts such as:
 
 If you wish to re-generate `index.json` from scratch:
 
-1. Download the SFML 3.1.0 Doxygen HTML documentation from the [SFML Website](https://www.sfml-dev.org/documentation/3.1.0/).
+1. Download the SFML 3.1.0 Doxygen HTML documentation from the [SFML Website](https://www.sfml-dev.org/files/SFML-3.1.0-doc.zip).
 2. Extract the HTML files into a folder named `SFML-3.1.0` in the repository root.
 3. Run the indexing script:
    ```bash
